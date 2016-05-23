@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-family: sans-serif;
+  font-size: 8vw;
+  line-height: 0;
+  color: #777;
+}
+.container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 80%;
+  will-change: transform;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 100%;
+  padding: 25% 0;
+  border: 1px solid #777;
+  transform: translateX(-100%);
+}
